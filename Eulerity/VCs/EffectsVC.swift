@@ -11,6 +11,7 @@ import Alamofire
 import Mantis
 import Sketch
 import PhotoRoomKit
+import NVActivityIndicatorView
 
 
 
@@ -23,7 +24,7 @@ class EffectsVC: UIViewController, UINavigationControllerDelegate {
     
     var sharedImage: UIImage?
     
-    
+   
     
     var isDrawing: Bool = false
     
@@ -105,6 +106,7 @@ class EffectsVC: UIViewController, UINavigationControllerDelegate {
         
         self.navigationController?.navigationBar.barTintColor = UIColor.white
     }
+    
     
     
    

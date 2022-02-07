@@ -61,9 +61,7 @@ class GallaryVC: UIViewController {
             loading.centerYAnchor.constraint(equalTo: view.centerYAnchor)
         ])
         loading.startAnimating()
-//        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-//            self.loading.stopAnimating()
-//        }
+
     }
     
     //MARK:- Get Data method to get data from URL

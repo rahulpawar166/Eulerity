@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 class FiltersVC: UIViewController {
     struct Filter {
         let filterName : String
@@ -41,6 +42,8 @@ class FiltersVC: UIViewController {
     @IBOutlet weak var nextBtn: UIButton!
     @IBOutlet weak var imageBackView: UIView!
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -72,6 +75,8 @@ class FiltersVC: UIViewController {
         
     }
     
+    
+    
     private func applyFilter(image: UIImage, filterEffect: Filter) -> UIImage?{
         guard let cgImage = image.cgImage, let openGLContext = EAGLContext(api: .openGLES3) else {return nil}
         let context = CIContext(eaglContext: openGLContext)
@@ -100,6 +105,7 @@ class FiltersVC: UIViewController {
     func none(){
         guard let image = imageView.image else {return}
         imageView.image = originalImage
+        
     }
     func vivid(){
         guard let image = imageView.image else {return}

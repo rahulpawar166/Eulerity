@@ -911,7 +911,7 @@
                                     <action selector="nextBtnPressed:" destination="Oe8-Po-5Gd" eventType="touchUpInside" id="UpE-Xp-jjc"/>
                                 </connections>
                             </button>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Hzy-5Y-UBN">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Hzy-5Y-UBN">
                                 <rect key="frame" x="0.0" y="724" width="414" height="128"/>
                                 <color key="backgroundColor" name="darkBlueC"/>
                                 <constraints>
@@ -935,7 +935,7 @@
                                 </cells>
                             </collectionView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zWA-p7-xAF">
-                                <rect key="frame" x="107" y="598" width="200" height="25"/>
+                                <rect key="frame" x="107" y="578" width="200" height="25"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="KnT-2j-cqh"/>
@@ -950,7 +950,7 @@
                         <color key="backgroundColor" name="darkBlueC"/>
                         <constraints>
                             <constraint firstItem="V4d-kD-JfJ" firstAttribute="centerY" secondItem="Ztj-kC-3GC" secondAttribute="centerY" constant="-50" id="0yE-pa-R4N"/>
-                            <constraint firstItem="zWA-p7-xAF" firstAttribute="top" secondItem="V4d-kD-JfJ" secondAttribute="bottom" constant="30" id="30f-li-00a"/>
+                            <constraint firstItem="zWA-p7-xAF" firstAttribute="top" secondItem="V4d-kD-JfJ" secondAttribute="bottom" constant="10" id="30f-li-00a"/>
                             <constraint firstItem="V4d-kD-JfJ" firstAttribute="centerX" secondItem="Ztj-kC-3GC" secondAttribute="centerX" id="d1G-oT-MaF"/>
                             <constraint firstItem="Hzy-5Y-UBN" firstAttribute="centerX" secondItem="Ztj-kC-3GC" secondAttribute="centerX" id="eea-Gr-Ey1"/>
                             <constraint firstItem="V4d-kD-JfJ" firstAttribute="height" secondItem="Ztj-kC-3GC" secondAttribute="height" multiplier="0.379464" id="g4p-fz-jkm"/>
