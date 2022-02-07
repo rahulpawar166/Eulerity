@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		209442C53C4750C9D6EEF0BA /* Pods_Eulerity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53D2A83DEEDCFDAD0D90672F /* Pods_Eulerity.framework */; };
+		B719D41627B04C660099CA4D /* FiltersCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B719D41427B04C660099CA4D /* FiltersCollectionCell.swift */; };
+		B719D41727B04C660099CA4D /* FiltersCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B719D41527B04C660099CA4D /* FiltersCollectionCell.xib */; };
+		B719D41927B068B40099CA4D /* ShareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B719D41827B068B40099CA4D /* ShareVC.swift */; };
+		B719D41C27B0AC770099CA4D /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B719D41B27B0AC770099CA4D /* HideKeyboard.swift */; };
+		B719D41E27B0B8FB0099CA4D /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B719D41D27B0B8FB0099CA4D /* ForgotPasswordVC.swift */; };
+		B719D44927B1002F0099CA4D /* FiltersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B719D44827B1002F0099CA4D /* FiltersVC.swift */; };
+		B7779F2B27AEF03D00E53F50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7779F2A27AEF03D00E53F50 /* AppDelegate.swift */; };
+		B7779F2D27AEF03D00E53F50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7779F2C27AEF03D00E53F50 /* SceneDelegate.swift */; };
+		B7779F3227AEF03D00E53F50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7779F3027AEF03D00E53F50 /* Main.storyboard */; };
+		B7779F3427AEF03E00E53F50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7779F3327AEF03E00E53F50 /* Assets.xcassets */; };
+		B7779F3727AEF03E00E53F50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7779F3527AEF03E00E53F50 /* LaunchScreen.storyboard */; };
+		B7779F4027AEF06600E53F50 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B7779F3F27AEF06600E53F50 /* Pacifico-Regular.ttf */; };
+		B7779F4327AEFFF700E53F50 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7779F4227AEFFF700E53F50 /* GoogleService-Info.plist */; };
+		B7779F4527AF01FC00E53F50 /* StartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7779F4427AF01FC00E53F50 /* StartVC.swift */; };
+		B7779F4927AF02C300E53F50 /* CreateAccEmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7779F4827AF02C300E53F50 /* CreateAccEmailVC.swift */; };
+		B7779F4B27AF0A3B00E53F50 /* CreateAccPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7779F4A27AF0A3B00E53F50 /* CreateAccPasswordVC.swift */; };
+		B7779F4D27AF197500E53F50 /* SignInEmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7779F4C27AF197500E53F50 /* SignInEmailVC.swift */; };
+		B7779F4F27AF198300E53F50 /* SignInPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7779F4E27AF198300E53F50 /* SignInPasswordVC.swift */; };
+		B7779F5227AF33CE00E53F50 /* GallaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7779F5127AF33CE00E53F50 /* GallaryVC.swift */; };
+		B7779F5A27AF43B600E53F50 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7779F5827AF43B600E53F50 /* MyCollectionViewCell.swift */; };
+		B7779F5B27AF43B600E53F50 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7779F5927AF43B600E53F50 /* MyCollectionViewCell.xib */; };
+		B7779F5E27AF48F400E53F50 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7779F5D27AF48F400E53F50 /* ImageData.swift */; };
+		B7779F6227AF581F00E53F50 /* LaunchScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7779F6127AF581F00E53F50 /* LaunchScreenVC.swift */; };
+		B7779F6427AF82BE00E53F50 /* EffectsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7779F6327AF82BE00E53F50 /* EffectsVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53D2A83DEEDCFDAD0D90672F /* Pods_Eulerity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eulerity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DFD523581378D5A0AEA0F60 /* Pods-Eulerity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eulerity.release.xcconfig"; path = "Target Support Files/Pods-Eulerity/Pods-Eulerity.release.xcconfig"; sourceTree = "<group>"; };
+		96BE21993C887660E58D23EF /* Pods-Eulerity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eulerity.debug.xcconfig"; path = "Target Support Files/Pods-Eulerity/Pods-Eulerity.debug.xcconfig"; sourceTree = "<group>"; };
+		B719D41027B04A430099CA4D /* Drawsana.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Drawsana.framework; path = Carthage/Build/iOS/Drawsana.framework; sourceTree = "<group>"; };
+		B719D41427B04C660099CA4D /* FiltersCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersCollectionCell.swift; sourceTree = "<group>"; };
+		B719D41527B04C660099CA4D /* FiltersCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FiltersCollectionCell.xib; sourceTree = "<group>"; };
+		B719D41827B068B40099CA4D /* ShareVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareVC.swift; sourceTree = "<group>"; };
+		B719D41B27B0AC770099CA4D /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboard.swift; sourceTree = "<group>"; };
+		B719D41D27B0B8FB0099CA4D /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		B719D44827B1002F0099CA4D /* FiltersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersVC.swift; sourceTree = "<group>"; };
+		B7779F2727AEF03D00E53F50 /* Eulerity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eulerity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7779F2A27AEF03D00E53F50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7779F2C27AEF03D00E53F50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B7779F3127AEF03D00E53F50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7779F3327AEF03E00E53F50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7779F3627AEF03E00E53F50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7779F3827AEF03E00E53F50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7779F3F27AEF06600E53F50 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		B7779F4227AEFFF700E53F50 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B7779F4427AF01FC00E53F50 /* StartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartVC.swift; sourceTree = "<group>"; };
+		B7779F4827AF02C300E53F50 /* CreateAccEmailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccEmailVC.swift; sourceTree = "<group>"; };
+		B7779F4A27AF0A3B00E53F50 /* CreateAccPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccPasswordVC.swift; sourceTree = "<group>"; };
+		B7779F4C27AF197500E53F50 /* SignInEmailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailVC.swift; sourceTree = "<group>"; };
+		B7779F4E27AF198300E53F50 /* SignInPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPasswordVC.swift; sourceTree = "<group>"; };
+		B7779F5027AF279F00E53F50 /* Eulerity.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Eulerity.entitlements; sourceTree = "<group>"; };
+		B7779F5127AF33CE00E53F50 /* GallaryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallaryVC.swift; sourceTree = "<group>"; };
+		B7779F5827AF43B600E53F50 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		B7779F5927AF43B600E53F50 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		B7779F5D27AF48F400E53F50 /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		B7779F6127AF581F00E53F50 /* LaunchScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenVC.swift; sourceTree = "<group>"; };
+		B7779F6327AF82BE00E53F50 /* EffectsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7779F2427AEF03D00E53F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209442C53C4750C9D6EEF0BA /* Pods_Eulerity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056D382D1A24ECA2A3049AD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96BE21993C887660E58D23EF /* Pods-Eulerity.debug.xcconfig */,
+				6DFD523581378D5A0AEA0F60 /* Pods-Eulerity.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B719D41A27B0AC5A0099CA4D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B719D41B27B0AC770099CA4D /* HideKeyboard.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B7779F1E27AEF03D00E53F50 = {
+			isa = PBXGroup;
+			children = (
+				B7779F2927AEF03D00E53F50 /* Eulerity */,
+				B7779F2827AEF03D00E53F50 /* Products */,
+				056D382D1A24ECA2A3049AD0 /* Pods */,
+				DD13F6D1CF481D0995E7E088 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7779F2827AEF03D00E53F50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7779F2727AEF03D00E53F50 /* Eulerity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7779F2927AEF03D00E53F50 /* Eulerity */ = {
+			isa = PBXGroup;
+			children = (
+				B719D41A27B0AC5A0099CA4D /* Extension */,
+				B7779F5C27AF48E300E53F50 /* Model */,
+				B7779F5327AF42EA00E53F50 /* Custom Cell */,
+				B7779F5027AF279F00E53F50 /* Eulerity.entitlements */,
+				B7779F3E27AEF04C00E53F50 /* Fonts */,
+				B7779F2A27AEF03D00E53F50 /* AppDelegate.swift */,
+				B7779F2C27AEF03D00E53F50 /* SceneDelegate.swift */,
+				B7779F4127AEF0E200E53F50 /* VCs */,
+				B7779F3027AEF03D00E53F50 /* Main.storyboard */,
+				B7779F3327AEF03E00E53F50 /* Assets.xcassets */,
+				B7779F3527AEF03E00E53F50 /* LaunchScreen.storyboard */,
+				B7779F3827AEF03E00E53F50 /* Info.plist */,
+				B7779F4227AEFFF700E53F50 /* GoogleService-Info.plist */,
+			);
+			path = Eulerity;
+			sourceTree = "<group>";
+		};
+		B7779F3E27AEF04C00E53F50 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B7779F3F27AEF06600E53F50 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B7779F4127AEF0E200E53F50 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				B7779F4427AF01FC00E53F50 /* StartVC.swift */,
+				B7779F4827AF02C300E53F50 /* CreateAccEmailVC.swift */,
+				B7779F4A27AF0A3B00E53F50 /* CreateAccPasswordVC.swift */,
+				B7779F4C27AF197500E53F50 /* SignInEmailVC.swift */,
+				B7779F4E27AF198300E53F50 /* SignInPasswordVC.swift */,
+				B7779F5127AF33CE00E53F50 /* GallaryVC.swift */,
+				B7779F6127AF581F00E53F50 /* LaunchScreenVC.swift */,
+				B7779F6327AF82BE00E53F50 /* EffectsVC.swift */,
+				B719D41827B068B40099CA4D /* ShareVC.swift */,
+				B719D41D27B0B8FB0099CA4D /* ForgotPasswordVC.swift */,
+				B719D44827B1002F0099CA4D /* FiltersVC.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		B7779F5327AF42EA00E53F50 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B7779F5827AF43B600E53F50 /* MyCollectionViewCell.swift */,
+				B7779F5927AF43B600E53F50 /* MyCollectionViewCell.xib */,
+				B719D41427B04C660099CA4D /* FiltersCollectionCell.swift */,
+				B719D41527B04C660099CA4D /* FiltersCollectionCell.xib */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		B7779F5C27AF48E300E53F50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7779F5D27AF48F400E53F50 /* ImageData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD13F6D1CF481D0995E7E088 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B719D41027B04A430099CA4D /* Drawsana.framework */,
+				53D2A83DEEDCFDAD0D90672F /* Pods_Eulerity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7779F2627AEF03D00E53F50 /* Eulerity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7779F3B27AEF03E00E53F50 /* Build configuration list for PBXNativeTarget "Eulerity" */;
+			buildPhases = (
+				BDEC2892F3ACCC7510A384EE /* [CP] Check Pods Manifest.lock */,
+				B7779F2327AEF03D00E53F50 /* Sources */,
+				B7779F2427AEF03D00E53F50 /* Frameworks */,
+				B7779F2527AEF03D00E53F50 /* Resources */,
+				51E9BC1F5DC625A49D1CA312 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eulerity;
+			productName = Eulerity;
+			productReference = B7779F2727AEF03D00E53F50 /* Eulerity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7779F1F27AEF03D00E53F50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					B7779F2627AEF03D00E53F50 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B7779F2227AEF03D00E53F50 /* Build configuration list for PBXProject "Eulerity" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7779F1E27AEF03D00E53F50;
+			productRefGroup = B7779F2827AEF03D00E53F50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7779F2627AEF03D00E53F50 /* Eulerity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7779F2527AEF03D00E53F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7779F3727AEF03E00E53F50 /* LaunchScreen.storyboard in Resources */,
+				B719D41727B04C660099CA4D /* FiltersCollectionCell.xib in Resources */,
+				B7779F4027AEF06600E53F50 /* Pacifico-Regular.ttf in Resources */,
+				B7779F5B27AF43B600E53F50 /* MyCollectionViewCell.xib in Resources */,
+				B7779F4327AEFFF700E53F50 /* GoogleService-Info.plist in Resources */,
+				B7779F3427AEF03E00E53F50 /* Assets.xcassets in Resources */,
+				B7779F3227AEF03D00E53F50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51E9BC1F5DC625A49D1CA312 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eulerity/Pods-Eulerity-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eulerity/Pods-Eulerity-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eulerity/Pods-Eulerity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDEC2892F3ACCC7510A384EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eulerity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7779F2327AEF03D00E53F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7779F4F27AF198300E53F50 /* SignInPasswordVC.swift in Sources */,
+				B7779F2B27AEF03D00E53F50 /* AppDelegate.swift in Sources */,
+				B7779F6227AF581F00E53F50 /* LaunchScreenVC.swift in Sources */,
+				B7779F5A27AF43B600E53F50 /* MyCollectionViewCell.swift in Sources */,
+				B719D41627B04C660099CA4D /* FiltersCollectionCell.swift in Sources */,
+				B7779F5E27AF48F400E53F50 /* ImageData.swift in Sources */,
+				B7779F4D27AF197500E53F50 /* SignInEmailVC.swift in Sources */,
+				B7779F4927AF02C300E53F50 /* CreateAccEmailVC.swift in Sources */,
+				B719D41927B068B40099CA4D /* ShareVC.swift in Sources */,
+				B7779F2D27AEF03D00E53F50 /* SceneDelegate.swift in Sources */,
+				B719D41C27B0AC770099CA4D /* HideKeyboard.swift in Sources */,
+				B7779F4B27AF0A3B00E53F50 /* CreateAccPasswordVC.swift in Sources */,
+				B7779F4527AF01FC00E53F50 /* StartVC.swift in Sources */,
+				B7779F5227AF33CE00E53F50 /* GallaryVC.swift in Sources */,
+				B719D41E27B0B8FB0099CA4D /* ForgotPasswordVC.swift in Sources */,
+				B719D44927B1002F0099CA4D /* FiltersVC.swift in Sources */,
+				B7779F6427AF82BE00E53F50 /* EffectsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B7779F3027AEF03D00E53F50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7779F3127AEF03D00E53F50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7779F3527AEF03E00E53F50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7779F3627AEF03E00E53F50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7779F3927AEF03E00E53F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7779F3A27AEF03E00E53F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7779F3C27AEF03E00E53F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96BE21993C887660E58D23EF /* Pods-Eulerity.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Eulerity/Eulerity.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7M46C5472;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Eulerity/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need photo library access to save the images.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need photo library access to save the images.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahulpawar166.Eulerity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7779F3D27AEF03E00E53F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DFD523581378D5A0AEA0F60 /* Pods-Eulerity.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Eulerity/Eulerity.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P7M46C5472;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Eulerity/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need photo library access to save the images.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need photo library access to save the images.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahulpawar166.Eulerity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7779F2227AEF03D00E53F50 /* Build configuration list for PBXProject "Eulerity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7779F3927AEF03E00E53F50 /* Debug */,
+				B7779F3A27AEF03E00E53F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7779F3B27AEF03E00E53F50 /* Build configuration list for PBXNativeTarget "Eulerity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7779F3C27AEF03E00E53F50 /* Debug */,
+				B7779F3D27AEF03E00E53F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7779F1F27AEF03D00E53F50 /* Project object */;
+}
